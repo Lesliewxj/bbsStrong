@@ -8,3 +8,12 @@ jdk8+tomcat8+myeclipse2017ci(环境最好统一)
 项目技术
 
 spring+spring mvc+hibernate+bootstrap+jquery
+
+注意事项
+
+在运行的时候，myeclipse需要修改catalina.properties
+
+添加一句话，这句代码十分重要，如果不修改会抛出，javax.el.Exception的异常，因为是老项目，高版本需要修改配置文件:
+
+org.apache.el.parser.SKIP_IDENTIFIER_CHECK=true
+
