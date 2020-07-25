@@ -9,8 +9,7 @@ Project technology
 
 spring+spring mvc+hibernate+bootstrap+jquery
 
-Precautions
-
+Precautions：
 When running, myeclipse needs to modify catalina.properties
 
 Add a sentence, this code is very important. If it is not modified, it will throw a javax.el.Exception. Because it is an old project, the higher version needs to modify the configuration file:
