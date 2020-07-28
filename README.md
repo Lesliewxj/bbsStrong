@@ -14,4 +14,4 @@ When running, myeclipse needs to modify catalina.properties
 
 Add a sentence, this code is very important. If it is not modified, it will throw a javax.el.Exception. Because it is an old project, the higher version needs to modify the configuration file:
 
-org.apache.el.parser.SKIP_IDENTIFIER_CHECK=true（add to files）
+org.apache.el.parser.SKIP_IDENTIFIER_CHECK=true（add this sentence to files）
